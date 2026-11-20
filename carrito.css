@@ -1,0 +1,89 @@
+.hero-space {
+    height: 107px;
+    background: linear-gradient(#f1f1f1, #fff)
+}
+
+.about {
+    background: #fff;
+    padding: 0 48px
+}
+.about h1 {
+    margin: 4px 0 28px;
+    color: #aaa;
+    font-size: 35px;
+    line-height: 1;
+      font-weight: 700
+}
+.row {
+    display: grid;
+    align-items: stretch
+}
+.cartpay {
+   display: grid;
+    justify-items: center;
+    padding: 80px 40px;
+    border-radius: 100px;
+    margin: 50px auto;
+}
+
+.cartpay button {
+    background-color: grey;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.rowcart {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.producto-infocart {
+    flex: 1;
+}
+.producto-infocart h3 {
+    margin: 0 0 20px 0;
+}
+.producto-infocart p {
+    margin: 0;
+    font-size: 20px;
+}
+.producto-cantidadcart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+.row-one {
+    grid-template-columns: 43% 57%
+}
+.row-onecart {
+    grid-template-columns: 23% 37%
+}
+.row-two {
+    grid-template-columns: 55% 45%;
+    margin-top: 38px
+}
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block
+}
+.workshop {
+    min-height: 426px
+}
+.workshopcart {
+    height: 125px;
+    width: 125px;
+}
+
+
+
